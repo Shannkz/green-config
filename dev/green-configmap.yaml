@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-config-file
+data:
+  environment: Development
+  port: "5000"
+  debug: "True"
