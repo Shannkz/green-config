@@ -17,12 +17,12 @@ spec:
     spec:
       containers:
       - name: flask-apix
-        image: <IMAGE>
+        image: registry.digitalocean.com/eu-central/test-flask:25803dd
         imagePullPolicy: Always
         resources:
           limits:
             memory: "256Mi"
-            cpu: "500m"
+            cpu: "400m"
         ports:
           - containerPort: 5000
         env:
